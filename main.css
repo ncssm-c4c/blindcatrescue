@@ -1,0 +1,8 @@
+.TextBox {
+  padding: 5vh 10vw;
+  overflow: hidden;
+}
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
