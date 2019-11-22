@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -5,20 +6,31 @@
   <meta charset="utf-8">
   <title>Blind Cat Rescue</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="main.css">
+  <!-- <link rel="stylesheet" href="main.css"> -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <style media="screen">
+  .TextBox {
+    padding: 5vh 10vw;
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  </style>
 </head>
 
 <body>
   <!-- navigation bar -->
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper  blue darken-4">
+      <div class="nav-wrapper  black darken-4">
         <a style="margin-left: 10px" href="#" class="brand-logo">Blind Cat Rescue</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>.
           <li><a href="donate.html">Donate</a></li>
         </ul>
       </div>
@@ -34,15 +46,39 @@
 
   <!--  -->
   <section class="TextBox">
-    <h2>Welcome to the official web page for Blind Cat Rescue & Sanctuary, Inc</h2>
+    <h2><b>Welcome to the official web page for Blind Cat Rescue & Sanctuary, Inc</b></h2>
     <hr>
     <p>We are a lifetime cat care sanctuary located in St. Pauls, North Carolina (USA).</p>
     <p>In 2005, we built our first building as a safe place for blind cats who were deemed not adoptable by regular shelters and were going to be euthanized because they were blind. In 2011, we built a second shelter to provide a safe place for Leukemia
       positive (FELV+) and Feline Immunodeficiency Virus (FIV+) cats who otherwise would be killed because they tested positive for these viruses.</p>
-    <p>We are a registered non-profit 501©3 in the state of North Carolina. Our tax identification number is 20-3410498. Your donations are tax-deductible, encrypted,and safe.</p>
+    <p>We are a registered non-profit 501©3 in the state of North Carolina.  Our tax identification number is 20-3410498.  Your donations are tax-deductible, encrypted,and safe.  Now we humbly ask for your help.  Will you consider becoming the cat’s champion ...by making a gift today?  Every little bit helps!</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align: center; padding-top: 40px;">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="GHTCEJGS5NN4Y">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" hidden="" style="display: none !important;">
+    </form>
+  </section>
+  <section class="TextBox" style="text-align: center;">
+    <h2><b>Become a monthly sustainer!</b></h2>
+    <hr>
+    <div style="width: 25%; float: left;">
+      <img src="https://cdn.greatnonprofits.org//img/2017-top-rated-awards-badge-embed.png?id=1527969" alt="" style="width: 80%; margin: 10px">
+    </div>
+    <div style="width: 25%; float: left;">
+      <img src="https://cdn.greatnonprofits.org//img/2018-top-rated-awards-badge-embed.png?id=1527969" alt="" style="width: 80%; margin: 10px">
+    </div>
+    <div style="width: 25%; float: left;">
+      <img src="https://cdn.greatnonprofits.org//img/2019-top-rated-awards-badge-embed.png?id=1527969" alt="" style="width: 80%; margin: 10px">
+    </div>
+    <div style="width: 25%; float: left;">
+      <img src="https://widgets.guidestar.org/gximage2?o=7021120&l=v4" alt="" style="width: 60%; margin: 10px">
+    </div>
+    <br>
+    <b><a style="text-decoration: underline;"href="https://greatnonprofits.org/org/blind-cat-rescue-sanctuary-inc">Volunteer. Donate. Review.</a></b>
   </section>
   <section class="TextBox">
-    <h2>Meet Charity</h2>
+    <h2><b>Meet Charity</b></h2>
     <hr>
     <img src="https://www.blindcatrescue.com/index_htm_files/315592.jpg" alt="" style="width: 45%; margin: 10px">
     <p style="width: 48%; float: right">Charity came to us from a local rescuer after being rescued off of the porch of a man who “hates cats.”
@@ -50,14 +86,24 @@
       needed. Because of wonderful generous people like YOU she is alive and healthy being loved and cared for at Blind Cat Rescue. When you donate, you help a cat like Charity that was desperate for help.</p>
     </p>
   </section>
-  <footer class="page-footer">
+  <section class="TextBox" style="text-align: center;">
+    <hr>
+    <img src="https://blindcatrescue.com/index_htm_files/320658.jpg" alt="" style="height: 10%; width: 40%;margin: 10px;">
+    <img src="https://blindcatrescue.com/index_htm_files/320656.png" alt="" style="height: 10%; width: 40%; margin: 10px">
+
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQcAAADACAMAAAA+71YtAAAAw1BMVEX/////AAAAAACwsLD/4+P/XV3/amoaGhru7u7y8vJHR0c3Nzfi4uL4+Pj7+/v/dXVqamrS0tJ/f3+Li4v/R0dAQEBiYmLT09PFxcVVVVWWlpaioqIyMjLn5+e5ublOTk4rKyt7e3sQEBAYGBgkJCSYmJhycnJDQ0NaWlq+vr6np6eFhYX/9/cmJibJycn/goL/rq7/trb/U1P/2tr/7Oz/Kir/mJj/Hh7/wsL/ior/zMz/oqL/FBT/c3P/QUH/ODj/ZmYCxqxkAAANTklEQVR4nO1dCZvaOA8Opi0EkpSjkAESAgwwHIV2u939uttu2///qz5LsnNADoYjzjB5n6cdT6I48htFls0gaZoafPv080elUvnx6/3nr4pUKAD+roTx7qNqfdTg6/8qB/imWiUV+HrIAscfqpXKH9aPGB4q/6pWK3e8jaOhUnlt3vKPeBoqX1Qrli8+JtBQqXxWrVqueJ/IQ+U1zZ5/JtNQea9auRzxIYWHyhvV2uWGb2k0vCJXeRRIRvFagojv6TRU/lKtYD5InjMlXsfc+U8mDxXVKuaBuPXVIf5RrWQO+O8EHl5BMJUWQgX4T7WaN8eXk3i4+2Dq39NouPtg6teJPNx5MJW07XCM+w6mMiLqMO55rzIroo5AtbK3Q3ZEHcZ31ereDCdE1GHcazB1SkQdxifVCt8IKZuS8bjPTfw3z6Wh8lu1yjdBwic3afhTtc43wGkLrCg+qFb6Bvh5Bg93+Al4+h51Eu4vuv7rLB7ubqvy83k03F10HfvXDqfgb9WaXxV/Zw84CfcUXT9vgRXFPUXXz1xgRXE/W5XPXWBF8Vu1+lfDSR9ZJONeouvnL7CiuJfo+sSPLJJxH9H1qR9ZJOM+ouuzFlhR3EN0fd4CK4oflupRXI5nfGSRjJcfXZ+9wIrixUfX16HhxUfXFyywonjZ0fUlC6wofqseykX4dDUeXnR0fdkCK4oXF12vhxwLbH7/8vZq+HCaQYy8AQdvtBv8Z8Olo5smq3XqNxpwAqYMkO89A2zl3R+wQTw02Gg/fmJGrpp04P61XG8ZQhwP3dlo2Wo9LB9z1aR4PLDxqNceMZO189SkcDzUmbGYjJZMY9U8NSkkD80Wq3O7yFOTQvGArnG3GK24MRjCa+YE5GGW5x3DOOBhD8fGrLvX7GGtlasmi4bneatcbxlCHA9alzWnK+ap0kkFYnnQjMW0m+tkkQD9GGeLuUYitCQerocuS8e8K1VeHsST6+Us/pL+xgzd4GGaILYahcioNtKUKAAPwT2j80U19ZKNT1aq2EhIGbV0DYrBg4jfIzwsMy4RI9xmiA1RysxSoCA8rI54GIozs9oh5DVo8xv5W6KYG9Gh2YvFLi8eZroZi/WM9Ksf8GDR4X5c/DKmc/hmUNOLWw/ScBiu4x1qT9N28fPhIUkDlzTEqSnEA+nSjL+GXALENntsTeLF2sQRNB+DZiLU8qD1g7uGeBgFjzwGeNLRJCOjBDFHimk7lEtfLCnmgfwhGnaIh2oqD03sUsvioe/35xWfB3ov0OmFeKABNhKu0esAX2UnS0yYVy9VT5+H/S15SDipD/CmffwlxINB9LRig8cAdRLrZ20gSreb1p3Pg31DHlg/FsRCXPwgTjBnNUD0mj6cQX8kJ4imEJuQ1OApEGt6/YU/j7Rld80YOL38eEiF2OUI85AeTfKIg0wgPZpkbCAnXiNNalYQHub2EQ/Zl9EIF1li1LXVTJN5LAgPx/MFqLOcpF4yITFj6qSKzVEqI0rPjYdZ227HwH4QCjaPedDA4bsSdR/uRsTM63SxqqARXjoRrbGuUY9Ffjwknl4Hgzp5f5IsYJolRittmIsWB8zFIR8ekiP7jq9tx7fRDJD3Tw8HNOkbQYzmpfRdRtU80KAmWoQHYwwwk66Rb74LUtVEsZns2fHfkGSo5sGQgwrzQNNm4seK0qfQ0jNx/9B3Pc3s10I5DzRkiI1DPFDAnLRwoMh3KW2pmyBGA4K9jZW8IEtPdTzoM//dDfEQXo4fwzdznaXpTH4SFmu0vkg3iHx4MK0odDFjjYkG9qBF/SStlNlyfbS1bI/oEpyCaCHJWsdixmZO58B7iHUIm+6T96tz4SELuEUS5iErYBaK7jPFyDlmhZ1uMXiYBOtuOW9mbcAK5z/KEJNbGNOXwMOWJKPxwzjtimDjcv2YIjYIZpx1apQe5qGdNw9zjpo39cOE7Yz/Hoo8991WIwb9aTWy39AexoqtlpvoLq8Nf9sSD9jAqPahweUMbNjX5qFEiRIlSpQoUaJEiZvh/Ql4dy4+ZOFnUdL6np5V8kYoyJe3zk56ci28Vc0A4mrfyTsfRcjier3v5J2PX6pJ0K76nbzzoT6L6zW/k3c+1H8T/uIsF9eB6m/CX57l4kpQnLTz5MTct4balPjKQ6gASr/4rHrwIahMiV+AECqAurRCRQihAqhLK/TsTMy3haq0QpcmCrs6FGWROSMT822hZiOiMCFUACXBVGFCqAC/FdBQoBAqgIJgSvWQY/EzdxoKFUIFyHsjohjbDjHImYcLc63eDvluRJxTvSAn5BpMFWQXKg55bkQUMIQKkGMwVWBzyDNHY+EWWFHkxsOVkozeCrkFle9UjzQdue1DXCEV8y2RWwiRWpdePXKrzFfQtYVEbv7h41WSUt8K7/OigRPxSfnffiThr5x3a7++KSTuszZhiRIlSpQoUaJEiRIlSpQoUaJEiRIlSpQoUaJEiRJ3BvuiaoIGe2alpyFklRxhosVz0U/KvHkB9hfmlFPAg3GDglYmYwPvkgJRhkjST9CzbetyHgY3qIdpP/dxHiLCg8myx3cxDxerHN9p57IOIjzoWcU2tCvw0Gen5URcDjKqRoRhZ6cFP8TeC9cpib4XdnaBxkt5ONk7NNkz6uqewcM4kig5ysMJuJSHU81B67Hb2sNYFOciIA+uLai3KLeoZYtUoH5DMw2DzsXxYBm21Nm0hZxmWlodD9ft0IOV5sDP8hNBxlHsAQ7Cf65hAQ+uhQq5wfWuvAKFoKHTnducB1N0FIxFt03qNNSFKXWtCnvAbMdcr5YNqV+phtUAbRGSDWMyeWhg9mwT6xpME3jo+rlk6y1oLvFGzIEkvAtMwh08LGkOzKlDfuomzXUbyFLbIo5YYwjZu6GjGu+6upLaaHtIfD2HLNYWa3TxaBdvIXLzgmIz/rOHgcSKQYpxy2CdNqSAFiVFMH8w1KvBEmZVza4x1tCBhwmbDxc9ysLuAQ913vUTGA00eljJy2G14bCGah7xYDls3h01IFuvy3VYLJpUV4zfZstH5LDOInC/rvQOjI98O/Io+OFirc2SzbGyEL9uuGprjRlrDGCctUV3hqnRHzg9mxamOoaCOcOBzR+Us5hxhQw+CK9pQ4mlzqZPtxvwTrdDPkAHBiiU4ge3C4dNTG28Y5PeWpux7gpeCUNU+emiDmgPY96NWbVkA/XEqc6DNMpHPLToaVU7QNeI+nrC8VQxa/EYrHYghJcy6OOmYKJx1lCHNpqm4IGcdQ9SeHfZ3ILH3fNP7CG1tyUm+C1/evYDXgvz5oY1oFMbH+qATNkQ1oQDrLKeiVpswdgXcJab6shEMco006Rr63CnHtnQA3uiRo1k6qDOIQ+uLHlR5/LC5zbA+DGJsoUJyU1Z/cRFhogHQ7C45ipSFfix4EETPOiaPPXIQG96u/irwrulvMhDtiSvQH5SFLjjHS1hLHvBAw1wzu/YEOVoIFE9+klXFrUxZFkJ6F74B248lPe4QQ2dzTzMpQyDOuQhNP10ZQb6KmiPZWssZMDnwTcHTRR8wculdnocD2gcOwZNB5Vo8issUbNO529Xx5U8GNLsLOh9QL2GBjjmfWMX3oyPk+aLDj+0RrGt1H0kedCqjqj4CMVZFlymRjx4T8c8bIKyBlOZ2L8NncbwEJiDJlt7btD4BqAw8uBEeFjTs4RmD7XwGiOfB80czvAVQR7acizajD9vMRZDRpoLrqh8oF5P8qDtG4z8Q0MOYuzzgO+16zf0cMXAQx7WQUQ7DLK1j2J56ARLQvnUN1wbT8whbgYPQb0DK6TREG6EPLjyqA7383kYyAGutXCBGz9+sB/5GUMM2MKfeK3ZFipjY8mV3ImX2Xs45kEXVeU0mz8PoQfKH/NQD9WCkVUcerynhShtMUzlYS+mmnWr7vOAMcSOOwDyD3NB6BAMw+fBH2CdM05696uSB3gwI24QXGznYoE4eI3gWgtdGLhNbDj8vyrb8ZaJE0yIB7tLBRfArVqdDkzZLW7h+gr7OuahE5plGJXGmsKodSoZMmapPGgT9ER7mGoFDwZMgC6YFvHwQJ1u8NEEPDhcP9MD5fcksKRiLEO4yRpimjEX4zPrE5/HJ/COYvzAwx+vBjMlbwwecQ7gs3aPyzxZER5ovodJu+Fhtn+ThyHekygDgTaIHovzMEdzCL1ebN5jTSh/YZD+tcGO9YiHCUng+kLwUGM0IuY1cTq2BFn81gMkUcTVXGOHq4x+ypM8cAfwxP/NTXxorMmvmOvCwXNiGg6W6vG6Oh/lfIiTy9YDGwc3iR4H3CTNBlU+wiY6xCpEnmPc8xiKsgxjoHGIvm7D5Xp01AOjsAbwv9lvHZiDxnbalru4Jfkjgw9oN9IH4Go8Uf9luYKojzZXWviO652ZmMksKcTd5A4iHMOjqdfmHT126sFYIEKAAda6NHuuQVds7z24sM0ZWiZWKjoRz8pxF/G22kmFtq6hg5FRVyd3dCNrkqvxkIXC8eA8hn97vTxokbIer5iHCFJK9l0XRkY9OsXoP3v/6Ey4raRyZiViUC0B+D9LIigpkWwmxQAAAABJRU5ErkJggg==" alt="" style="width: 20%; margin: 10px">
+    <img src="https://www.ebayinc.com/assets/Uploads/Stories/Articles/Imported/3975608178_9060bd3d22_o.jpg" alt="" style="width: 30%; margin:10px">
+    <img src="https://k6j3y5m8.stackpathcdn.com/wp-content/uploads/2016/09/Lost-Pet-USA-Logo-1.jpg?x23282" alt="" style="width: 30%; margin: 10px">
+
+
+  </section>
+  <footer class="page-footer black">
     <div class="container">
       <div class="row" style="margin: 0">
-        <div class="col l6 s12">
-          <h5 class="white-text"></h5>
-          <p class="grey-text text-lighten-4" style="min-height: 20px">link 1<br>link 2</p>
-        </div>
-
+        <h5 class="white-text"></h5>
+        <p style="margin-left: 10px"><center>© 2019 Blind Cat Rescue. All Rights Reserved, Privacy Policy & Terms of Use. </center></p>
+        <p style="margin-left: 10px"><center>Blind Cat Rescue is a registered Trademark. You may not use our name in any capacity with out our expressed written permission.</center></p>
+        <p style="margin-bottom: 40px"></p>
       </div>
     </div>
 
